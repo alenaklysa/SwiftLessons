@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECF5CB4238C465800608C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CB3238C465800608C1F /* AppDelegate.swift */; };
+		3ECF5CB6238C465800608C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CB5238C465800608C1F /* ViewController.swift */; };
+		3ECF5CB9238C465800608C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF5CB7238C465800608C1F /* Main.storyboard */; };
+		3ECF5CBB238C465A00608C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF5CBA238C465A00608C1F /* Assets.xcassets */; };
+		3ECF5CBE238C465A00608C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF5CBC238C465A00608C1F /* LaunchScreen.storyboard */; };
+		3ECF5CD3238C467600608C1F /* blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CC6238C467600608C1F /* blocks.swift */; };
+		3ECF5CD4238C467600608C1F /* lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CC8238C467600608C1F /* lesson2.swift */; };
+		3ECF5CD5238C467600608C1F /* homework_lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CCA238C467600608C1F /* homework_lesson2.swift */; };
+		3ECF5CD6238C467600608C1F /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CCC238C467600608C1F /* functions.swift */; };
+		3ECF5CD7238C467600608C1F /* delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CCE238C467600608C1F /* delegate.swift */; };
+		3ECF5CD8238C467600608C1F /* homework_lesson5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CD0238C467600608C1F /* homework_lesson5.swift */; };
+		3ECF5CD9238C467600608C1F /* Jeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CD2238C467600608C1F /* Jeans.swift */; };
+		3ECF5CDC238C4DF200608C1F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CDB238C4DF200608C1F /* Currency.swift */; };
+		3ECF5CDE238C4EF500608C1F /* ConvectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CDD238C4EF500608C1F /* ConvectorViewController.swift */; };
+		F30515D4239D0EF900FDE3CC /* HW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30515D3239D0EF900FDE3CC /* HW.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ECF5CB0238C465800608C1F /* Swift lessons Alena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift lessons Alena.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECF5CB3238C465800608C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ECF5CB5238C465800608C1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ECF5CB8238C465800608C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECF5CBA238C465A00608C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECF5CBD238C465A00608C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ECF5CBF238C465A00608C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECF5CC6238C467600608C1F /* blocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = blocks.swift; sourceTree = "<group>"; };
+		3ECF5CC8238C467600608C1F /* lesson2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lesson2.swift; sourceTree = "<group>"; };
+		3ECF5CCA238C467600608C1F /* homework_lesson2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homework_lesson2.swift; sourceTree = "<group>"; };
+		3ECF5CCC238C467600608C1F /* functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		3ECF5CCE238C467600608C1F /* delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = delegate.swift; sourceTree = "<group>"; };
+		3ECF5CD0238C467600608C1F /* homework_lesson5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homework_lesson5.swift; sourceTree = "<group>"; };
+		3ECF5CD2238C467600608C1F /* Jeans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeans.swift; sourceTree = "<group>"; };
+		3ECF5CDB238C4DF200608C1F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		3ECF5CDD238C4EF500608C1F /* ConvectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvectorViewController.swift; sourceTree = "<group>"; };
+		F30515D3239D0EF900FDE3CC /* HW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECF5CAD238C465800608C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECF5CA7238C465800608C1F = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CB2238C465800608C1F /* Swift lessons Alena */,
+				3ECF5CB1238C465800608C1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECF5CB1238C465800608C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CB0238C465800608C1F /* Swift lessons Alena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECF5CB2238C465800608C1F /* Swift lessons Alena */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CB3238C465800608C1F /* AppDelegate.swift */,
+				3ECF5CB5238C465800608C1F /* ViewController.swift */,
+				3ECF5CB7238C465800608C1F /* Main.storyboard */,
+				3ECF5CC7238C467600608C1F /* lesson 2 */,
+				3ECF5CD1238C467600608C1F /* lesson 4 */,
+				3ECF5CCD238C467600608C1F /* lesson 5 */,
+				3ECF5CCB238C467600608C1F /* lesson 6 */,
+				3ECF5CC5238C467600608C1F /* lesson7 */,
+				3ECF5CDA238C4DB600608C1F /* lesson8 */,
+				3ECF5CBA238C465A00608C1F /* Assets.xcassets */,
+				3ECF5CBC238C465A00608C1F /* LaunchScreen.storyboard */,
+				3ECF5CBF238C465A00608C1F /* Info.plist */,
+			);
+			path = "Swift lessons Alena";
+			sourceTree = "<group>";
+		};
+		3ECF5CC5238C467600608C1F /* lesson7 */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CC6238C467600608C1F /* blocks.swift */,
+			);
+			path = lesson7;
+			sourceTree = "<group>";
+		};
+		3ECF5CC7238C467600608C1F /* lesson 2 */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CC8238C467600608C1F /* lesson2.swift */,
+				3ECF5CC9238C467600608C1F /* homework */,
+			);
+			path = "lesson 2";
+			sourceTree = "<group>";
+		};
+		3ECF5CC9238C467600608C1F /* homework */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CCA238C467600608C1F /* homework_lesson2.swift */,
+			);
+			path = homework;
+			sourceTree = "<group>";
+		};
+		3ECF5CCB238C467600608C1F /* lesson 6 */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CCC238C467600608C1F /* functions.swift */,
+			);
+			path = "lesson 6";
+			sourceTree = "<group>";
+		};
+		3ECF5CCD238C467600608C1F /* lesson 5 */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CCE238C467600608C1F /* delegate.swift */,
+				3ECF5CCF238C467600608C1F /* homework */,
+			);
+			path = "lesson 5";
+			sourceTree = "<group>";
+		};
+		3ECF5CCF238C467600608C1F /* homework */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CD0238C467600608C1F /* homework_lesson5.swift */,
+			);
+			path = homework;
+			sourceTree = "<group>";
+		};
+		3ECF5CD1238C467600608C1F /* lesson 4 */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CD2238C467600608C1F /* Jeans.swift */,
+			);
+			path = "lesson 4";
+			sourceTree = "<group>";
+		};
+		3ECF5CDA238C4DB600608C1F /* lesson8 */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF5CDB238C4DF200608C1F /* Currency.swift */,
+				3ECF5CDD238C4EF500608C1F /* ConvectorViewController.swift */,
+				F30515D3239D0EF900FDE3CC /* HW.swift */,
+			);
+			path = lesson8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECF5CAF238C465800608C1F /* Swift lessons Alena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECF5CC2238C465A00608C1F /* Build configuration list for PBXNativeTarget "Swift lessons Alena" */;
+			buildPhases = (
+				3ECF5CAC238C465800608C1F /* Sources */,
+				3ECF5CAD238C465800608C1F /* Frameworks */,
+				3ECF5CAE238C465800608C1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift lessons Alena";
+			productName = "Swift lessons Alena";
+			productReference = 3ECF5CB0238C465800608C1F /* Swift lessons Alena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECF5CA8238C465800608C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Anton Klysa";
+				TargetAttributes = {
+					3ECF5CAF238C465800608C1F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3ECF5CAB238C465800608C1F /* Build configuration list for PBXProject "Swift lessons Alena" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECF5CA7238C465800608C1F;
+			productRefGroup = 3ECF5CB1238C465800608C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECF5CAF238C465800608C1F /* Swift lessons Alena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECF5CAE238C465800608C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF5CBE238C465A00608C1F /* LaunchScreen.storyboard in Resources */,
+				3ECF5CBB238C465A00608C1F /* Assets.xcassets in Resources */,
+				3ECF5CB9238C465800608C1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECF5CAC238C465800608C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF5CD3238C467600608C1F /* blocks.swift in Sources */,
+				3ECF5CDE238C4EF500608C1F /* ConvectorViewController.swift in Sources */,
+				F30515D4239D0EF900FDE3CC /* HW.swift in Sources */,
+				3ECF5CB6238C465800608C1F /* ViewController.swift in Sources */,
+				3ECF5CD4238C467600608C1F /* lesson2.swift in Sources */,
+				3ECF5CDC238C4DF200608C1F /* Currency.swift in Sources */,
+				3ECF5CB4238C465800608C1F /* AppDelegate.swift in Sources */,
+				3ECF5CD9238C467600608C1F /* Jeans.swift in Sources */,
+				3ECF5CD7238C467600608C1F /* delegate.swift in Sources */,
+				3ECF5CD8238C467600608C1F /* homework_lesson5.swift in Sources */,
+				3ECF5CD5238C467600608C1F /* homework_lesson2.swift in Sources */,
+				3ECF5CD6238C467600608C1F /* functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3ECF5CB7238C465800608C1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECF5CB8238C465800608C1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ECF5CBC238C465A00608C1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECF5CBD238C465A00608C1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECF5CC0238C465A00608C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECF5CC1238C465A00608C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECF5CC3238C465A00608C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift lessons Alena/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testest.com.Swift-lessons-Alena";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECF5CC4238C465A00608C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift lessons Alena/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testest.com.Swift-lessons-Alena";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECF5CAB238C465800608C1F /* Build configuration list for PBXProject "Swift lessons Alena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF5CC0238C465A00608C1F /* Debug */,
+				3ECF5CC1238C465A00608C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECF5CC2238C465A00608C1F /* Build configuration list for PBXNativeTarget "Swift lessons Alena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF5CC3238C465A00608C1F /* Debug */,
+				3ECF5CC4238C465A00608C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECF5CA8238C465800608C1F /* Project object */;
+}
