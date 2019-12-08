@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3ECA7F239D830C00EE8D3F /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3ECA7E239D830C00EE8D3F /* TableView.swift */; };
+		3E3ECA82239D845800EE8D3F /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3ECA81239D845800EE8D3F /* CollectionView.swift */; };
 		3ECF5CB4238C465800608C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CB3238C465800608C1F /* AppDelegate.swift */; };
 		3ECF5CB6238C465800608C1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CB5238C465800608C1F /* ViewController.swift */; };
 		3ECF5CB9238C465800608C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF5CB7238C465800608C1F /* Main.storyboard */; };
@@ -21,10 +23,12 @@
 		3ECF5CD9238C467600608C1F /* Jeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CD2238C467600608C1F /* Jeans.swift */; };
 		3ECF5CDC238C4DF200608C1F /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CDB238C4DF200608C1F /* Currency.swift */; };
 		3ECF5CDE238C4EF500608C1F /* ConvectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CDD238C4EF500608C1F /* ConvectorViewController.swift */; };
-		F30515D4239D0EF900FDE3CC /* HW.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30515D3239D0EF900FDE3CC /* HW.swift */; };
+		F30515D4239D0EF900FDE3CC /* CaclViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30515D3239D0EF900FDE3CC /* CaclViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E3ECA7E239D830C00EE8D3F /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		3E3ECA81239D845800EE8D3F /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		3ECF5CB0238C465800608C1F /* Swift lessons Alena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift lessons Alena.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECF5CB3238C465800608C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ECF5CB5238C465800608C1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +45,7 @@
 		3ECF5CD2238C467600608C1F /* Jeans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jeans.swift; sourceTree = "<group>"; };
 		3ECF5CDB238C4DF200608C1F /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		3ECF5CDD238C4EF500608C1F /* ConvectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvectorViewController.swift; sourceTree = "<group>"; };
-		F30515D3239D0EF900FDE3CC /* HW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW.swift; sourceTree = "<group>"; };
+		F30515D3239D0EF900FDE3CC /* CaclViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaclViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E3ECA7D239D828200EE8D3F /* lesson_9 */ = {
+			isa = PBXGroup;
+			children = (
+				3E3ECA7E239D830C00EE8D3F /* TableView.swift */,
+			);
+			path = lesson_9;
+			sourceTree = "<group>";
+		};
+		3E3ECA80239D831C00EE8D3F /* lesson_10 */ = {
+			isa = PBXGroup;
+			children = (
+				3E3ECA81239D845800EE8D3F /* CollectionView.swift */,
+			);
+			path = lesson_10;
+			sourceTree = "<group>";
+		};
+		3E3ECA83239D84C200EE8D3F /* homework */ = {
+			isa = PBXGroup;
+			children = (
+				F30515D3239D0EF900FDE3CC /* CaclViewControler.swift */,
+			);
+			path = homework;
+			sourceTree = "<group>";
+		};
 		3ECF5CA7238C465800608C1F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				3ECF5CCB238C467600608C1F /* lesson 6 */,
 				3ECF5CC5238C467600608C1F /* lesson7 */,
 				3ECF5CDA238C4DB600608C1F /* lesson8 */,
+				3E3ECA7D239D828200EE8D3F /* lesson_9 */,
+				3E3ECA80239D831C00EE8D3F /* lesson_10 */,
 				3ECF5CBA238C465A00608C1F /* Assets.xcassets */,
 				3ECF5CBC238C465A00608C1F /* LaunchScreen.storyboard */,
 				3ECF5CBF238C465A00608C1F /* Info.plist */,
@@ -153,7 +183,7 @@
 			children = (
 				3ECF5CDB238C4DF200608C1F /* Currency.swift */,
 				3ECF5CDD238C4EF500608C1F /* ConvectorViewController.swift */,
-				F30515D3239D0EF900FDE3CC /* HW.swift */,
+				3E3ECA83239D84C200EE8D3F /* homework */,
 			);
 			path = lesson8;
 			sourceTree = "<group>";
@@ -231,15 +261,17 @@
 			files = (
 				3ECF5CD3238C467600608C1F /* blocks.swift in Sources */,
 				3ECF5CDE238C4EF500608C1F /* ConvectorViewController.swift in Sources */,
-				F30515D4239D0EF900FDE3CC /* HW.swift in Sources */,
+				F30515D4239D0EF900FDE3CC /* CaclViewControler.swift in Sources */,
 				3ECF5CB6238C465800608C1F /* ViewController.swift in Sources */,
 				3ECF5CD4238C467600608C1F /* lesson2.swift in Sources */,
 				3ECF5CDC238C4DF200608C1F /* Currency.swift in Sources */,
 				3ECF5CB4238C465800608C1F /* AppDelegate.swift in Sources */,
 				3ECF5CD9238C467600608C1F /* Jeans.swift in Sources */,
 				3ECF5CD7238C467600608C1F /* delegate.swift in Sources */,
+				3E3ECA7F239D830C00EE8D3F /* TableView.swift in Sources */,
 				3ECF5CD8238C467600608C1F /* homework_lesson5.swift in Sources */,
 				3ECF5CD5238C467600608C1F /* homework_lesson2.swift in Sources */,
+				3E3ECA82239D845800EE8D3F /* CollectionView.swift in Sources */,
 				3ECF5CD6238C467600608C1F /* functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
