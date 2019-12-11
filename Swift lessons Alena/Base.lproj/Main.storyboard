@@ -3,7 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -143,7 +143,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="oneButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="5A2-Cp-KMB"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="0s2-xI-sGP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7q-jg-zDR">
@@ -156,7 +156,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="twoButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="yt8-JJ-sD6"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="lHa-Dx-w8b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdK-eq-SZl">
@@ -169,7 +169,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="threeButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="C1k-y3-0l1"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="Brh-OV-g0a"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHj-Zf-3eO">
@@ -195,7 +195,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="7"/>
                                 <connections>
-                                    <action selector="sevenButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="3dR-I8-npA"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="ThW-je-Fzd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYA-zM-fpw">
@@ -208,7 +208,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="8"/>
                                 <connections>
-                                    <action selector="eightButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="mKW-ea-Tqb"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="XAL-XR-cg1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3QS-PW-Kme">
@@ -221,7 +221,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="9"/>
                                 <connections>
-                                    <action selector="nineButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="PYJ-xh-kcz"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="MPW-Oy-Xpq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKt-Bm-RA2">
@@ -247,7 +247,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="fourButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="MKg-zE-5ue"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="oiu-kO-cKq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5F-6X-cWd">
@@ -260,7 +260,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="fiveButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="060-eH-bS2"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="ctO-NL-P6Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiI-Ls-dMy">
@@ -273,7 +273,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="6"/>
                                 <connections>
-                                    <action selector="sixButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="C4b-UM-kgj"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="zcM-nT-dIB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6pf-43-9d8">
@@ -299,7 +299,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="0"/>
                                 <connections>
-                                    <action selector="zeroButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="gQU-Pg-H1H"/>
+                                    <action selector="numberActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="Rz9-7O-iPS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m63-vf-ZaZ">
@@ -324,7 +324,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="="/>
                                 <connections>
-                                    <action selector="resultButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="hJc-Os-DbJ"/>
+                                    <action selector="getResultButtonActionWithSender:" destination="r7e-rh-fwQ" eventType="touchUpInside" id="LNp-hj-YiO"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6dv-cA-McF">
@@ -379,21 +379,15 @@
                     </view>
                     <connections>
                         <outlet property="divisionButton" destination="m63-vf-ZaZ" id="clv-fT-nk5"/>
-                        <outlet property="eightButton" destination="eYA-zM-fpw" id="HX0-1F-Tzh"/>
-                        <outlet property="fiveButton" destination="t5F-6X-cWd" id="4sL-7c-JDO"/>
-                        <outlet property="fourButton" destination="COL-Ke-d5U" id="23Q-v6-I6v"/>
-                        <outlet property="getResult" destination="6dv-cA-McF" id="rD0-PO-A2t"/>
                         <outlet property="getResultButton" destination="Ij0-uT-0qW" id="V28-zs-bBK"/>
+                        <outlet property="getResultTextField" destination="6dv-cA-McF" id="Js3-Ss-RO9"/>
                         <outlet property="minusButton" destination="6pf-43-9d8" id="XB3-0n-Ymf"/>
                         <outlet property="multiplButton" destination="BKt-Bm-RA2" id="dAT-L1-qGt"/>
-                        <outlet property="nineButton" destination="3QS-PW-Kme" id="kYS-3i-Ujn"/>
-                        <outlet property="oneButton" destination="ucS-Bn-zo2" id="AgD-bP-PlS"/>
                         <outlet property="plusButton" destination="xHj-Zf-3eO" id="PGS-7P-gjc"/>
-                        <outlet property="sevenButton" destination="ozD-Lo-n4D" id="V3Q-eY-hkl"/>
-                        <outlet property="sixButton" destination="fiI-Ls-dMy" id="TS4-gr-a9x"/>
-                        <outlet property="threeButton" destination="HdK-eq-SZl" id="g3P-eA-zHm"/>
-                        <outlet property="twoButton" destination="n7q-jg-zDR" id="p7M-HE-AMl"/>
-                        <outlet property="zeroButton" destination="yic-59-awT" id="6eI-U1-EP8"/>
+                        <outletCollection property="operatorsArray" destination="xHj-Zf-3eO" collectionClass="NSMutableArray" id="bzB-CY-wgv"/>
+                        <outletCollection property="operatorsArray" destination="6pf-43-9d8" collectionClass="NSMutableArray" id="u2v-df-Vvt"/>
+                        <outletCollection property="operatorsArray" destination="BKt-Bm-RA2" collectionClass="NSMutableArray" id="qsa-75-sva"/>
+                        <outletCollection property="operatorsArray" destination="m63-vf-ZaZ" collectionClass="NSMutableArray" id="FXA-fF-48b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jG4-0K-FuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
